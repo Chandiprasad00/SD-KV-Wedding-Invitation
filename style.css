@@ -45,7 +45,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      opacity: 0.15;        /* change this value */
+      opacity: 0.08;        /* change this value */
       z-index: 0;
       pointer-events: none;
     }
@@ -328,7 +328,7 @@
       font-size: 11px;
       letter-spacing: 3px;
       text-transform: uppercase;
-      color: var(--gold);
+      color: var(--black);
       text-decoration: none;
       transition: all 0.3s ease;
     }
