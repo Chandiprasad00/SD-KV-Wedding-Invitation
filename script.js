@@ -104,6 +104,28 @@ function toggleMusic() {
   }
 }
 
+// Stop music when leaving page
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    music.pause();
+    btn.textContent = '🔇';
+  } else {
+    music.play();
+    btn.textContent = '🔊';
+  }
+});
+
+// Stop music when map button clicked
+document.querySelector('.map-btn').addEventListener('click', () => {
+  music.pause();
+  btn.textContent = '🔇';
+});
+
+// Stop music when leaving page via any link
+window.addEventListener('pagehide', () => {
+  music.pause();
+});
+
   const petals = Array.from({ length: 35 }, () => new Petal());
 
   function animate() {
