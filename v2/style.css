@@ -113,10 +113,10 @@ body {
 }
 
 .hero-eyebrow {
-  font-size: 11px;
+  font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: var(--gold-light);
+  color: #C0185A;
   margin-bottom: 12px;
   font-weight: 500;
 }
