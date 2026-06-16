@@ -116,7 +116,7 @@ body {
   font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #C0185A;
+  color: var(--gold-light);
   margin-bottom: 12px;
   font-weight: 500;
 }
